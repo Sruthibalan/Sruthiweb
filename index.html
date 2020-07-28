@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>SruthiBalan </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="data:image/png;base64,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 " type="image/gif" sizes="16x16">
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface:400,400i|Roboto+Mono&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+
+  
+
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg  bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html">Sruthi<span> <img src="images/sb_2_50x50.png" alt="" data-size="20x20"> </span>Balan</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+   
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="services.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">VisionBoard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
+
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/hero_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-12 text-center col-sm-12">
+          <p style="font-size:130%;"class="s-text-color-white">
+          <h1 class="mb-3" data-aos="fade-up" data-aos-delay="100">Hey, I'm<br>
+            -SRUTHI BALAN-</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="">
+            <span class="icon icon-bag mb-4 d-block"></span>
+            <h3>SEO</h3>
+            <p>Google Analytics and Social media marketing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="100">
+            <span class="icon icon-screen-desktop mb-4 d-block"></span>
+            <h3>Web Development</h3>
+            <p>HTML5,Css,Javascript and Bootstrap.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="200">
+            <span class="icon icon-screen-smartphone mb-4 d-block"></span>
+            <h3>Mobile App Development</h3>
+            <p>C programing,C++,Java,Xml and SQL.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="300">
+            <span class="icon icon-magnifier mb-4 d-block"></span>
+            <h3>Research</h3>
+            <p>Data collection,Analysis and Internet Browsing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <section>
+      <!-- <h3 class="text-center"><u>VISION BOARD</u></h3> -->
+      <div class="container ma">
+        <div class="row">
+         <div class="col-md-12">
+           <img src="images/im.jpg" class="img-fluid pt-5" width="1200" height="536">
+ 
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+       
+
+  <div class="section bg-light block-11">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class="mb-4 section-title">"Stay strong. Stand up. Have a voice."</h2>
+        </div>
+      </div>
+      <div class="nonloop-block-11 owl-carousel">
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/1_.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <!-- <h2 class="heading">Carl Smith</h2>
+                <span class="meta">Customer Corp.</span> -->
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo;  Your limitation—it’s only your imagination.
+                  &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/2.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <!-- <h2 class="heading">Craig Darren</h2>
+                <span class="meta">Customer Corp.</span> -->
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Push yourself, because no one else is going to do it for you. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/3.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <!-- <h2 class="heading">John Smith</h2>
+                <span class="meta">Customer Corp.</span> -->
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Sometimes later becomes never. Do it now. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/4.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <!-- <h2 class="heading">John Smith</h2>
+                <span class="meta">Customer Corp.</span> -->
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Success doesn’t just find you. You have to go out and get it. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- END .block-4 -->
+  </div>
+
+<!-- 
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-6 ml-auto pl-lg-4 mb-5 order-2">
+
+          <img src="images/about_2.jpg" alt="Image" class="img-fluid mb-5">
+          
+          <span class="d-block text-uppercase text-primary">About US</span>
+          <h2 class="mb-4 section-title">Creative We Grow</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem temporibus blanditiis accusamus perferendis libero accusantium nisi itaque tempore, harum aliquid aut, sapiente dolor tenetur.</p>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus.</p>
+          <p><a href="#" class="btn btn-outline-black">Learn More</a></p>
+        </div>
+        <div class="col-lg-6 order-1">
+          <figure class="img-dotted-bg">
+            <img src="images/about_1.jpg" alt="Image" class="img-fluid">
+          </figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="bg-primary py-5">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h3 class="text-white mb-2 font-weight-normal" >Get Started</h3>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+          <p class="mb-0" data-aos="fade-up" data-aos-delay="200"><a href="contact.html" class="btn btn-outline-white px-4 py-3">Get In Touch!</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+  
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3 class="mb-4">About Me</h3>
+          <p class="mb-5">Btech graduate,Passionate,Web and Mobile App developer </p>
+          
+
+        </div>
+        <div class="col-md-3 ml-auto">
+
+          <h3 class="mb-4">Navigation</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">VisionBoard</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+
+          
+        </div>
+        <div class="col-md-3 mb-5">
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="https://github.com/Sruthibalan" class="p-2"><span class="fa fa-github"></span></a></li>
+            <li><a href="https://wa.link/k6exwu" class="p-2"><span class="fa fa-whatsapp"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/sruthi-balan-37b95914b" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="https://www.instagram.com/sruthi_balan/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <div class="footer-copyright text-center py-3 ">© 2020 Copyright:
+              <a > SruthiBalan</a>
+            </div>            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+ 
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#ffc107" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
