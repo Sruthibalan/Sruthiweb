@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SruthiBalan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAk1BMVEX4/PsUGBkUGBsAAAD///+ipaT3+/wTFxj8///v8vIWGhu5vLuztbX2+vuSlZXz9/idn6AABwloa2vm6usMERKMj5DN0dJGSUnV2dmqra6ChYYvMjJNUFHe4uO+wsNxcnIdISInKSpbXl7Hy8s0Njd8f4A9P0BeYGFlZ2gcHyBLTVArLS5UV1kHDBN+gYJtb3EAAA09JAvdAAAF5ElEQVR4nO2aXVMiPRBGZ+yYyQzGOBBg/EBURGV1X/b//7q3M/i1+1yh1GRr6zliFXJByaHT6e6kKP8Cjo6OSjk2xd9Cbh8JOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKEThE4QOkHoBKET5B9x0rTyB21ZpdcHduKDdYC33ltlYCft8vR3pluR2DRxYCehqM9P/mBmil7J0E5kZJz5wKXHbC5fC5TvxImf/BmwytQVWZy4z0FrjP4LzkylqoZ1YsNEqrL9jaqRm5nLEyfd6IOT2cLZ4M6lqfYPle84cbU07fgTT1dRmiid8RmcmLPfA/ZuYYKbSjO4k0o+L2PrFhdStrd14bM40YWSHlVTxRhFOleH57h/Rvm2k9q+4Yz33l1LIxc2DO/EnUm//VZVK5uXF92NRTfGs7R6hnXSiH56m36ssauTTvObJra2HjRO0kfo46T/+JVsFyloV/ea710n1dBrp5Q+c9Qh1Mt+FR97p8Ez+nIR+G0nlZyZ/juyodqYItzuv3gO46QoJre6mqNuO6dm3W/IuZy0Y+ML1+m28ySVt+Zy/934UE4u20qer0S2dXEqcpErTppKJprp5yLrrRYnxquTofPJqxM30sxyXIfJ1FuX1Um8ND48iG48bRPnzk6abE7uoqxNX6t5o0XK6aD1yYeTpmzXKa82jeppUnG7kri3lMM4MVqpzbwNQfvChYZMlyufNO228GmvSUoedemMtT/eN8keyMlNlGvr1Yk18zY+hFxxoi507Tyl4JBl7W0nX2h4DuRkKe2LdboFTu40TE5MpvpE/5AuuLC+rZ4fryfGztsvvd9B8slKn21ni9rNtExZBpurZqs28cFZ70IIs9Pl9fYrYXKovdg9aXhIvJkfFwut7MOgtf2nOGliI2PvNGJ9MJN7GXp+8uEkKXiRGMvUeZ05ly1OdOPRCuX5fFLXGi1ev6k8caL9XtA+2J3Mb9o075OxyxonG02vcvO8Hbm6sFe58ok+6iJYU3fd8aWuoXz5JD7cp6SipVtsZRyCy7Tv6OdfpeFsmk3rskmJZZRp3ynlWjuLXQppytf6pNq7CTxEnHTyo9u9or+ur0/yOKmea2e2bZMkaLDs6thq7wHKt51ocXIhcvtWuNqcdWz7aGwtvZJS8222fkcj4+WnnL+/uut38jjRnsteS7VpeifVa188/PxE8+vlT5m9S/AZ+2L5z6UOfWchjXMyzU8KV98eSfeuJGR00o5NWrq7sWxTxZtMczbVMP8po/dXa7duc83Z4pXzpo198arRkm0eq/lk++vX9u0ddMMZfB5bvs3tK+m80dZLU4mKiBIKk2du78O1bNJO41OR0h9IDjy3L9/Pd9ql9hVTLaa1FxTpbKiznO+ok/AQ483EpJI+ne+Uec53dueAMy0cRw+7c0AXTKZzQGc0XLVYHE302eJCv6w854DpvPjk7Km2wfnFKPd58dPkRLTxur8b3zWyyXRe/Hqv4Hy7MH2T4fLeK5C5rph+VJ71XkF/YG1Wy2MNWJWS7p9U+28633Py6f7JZlGvs94/ebunNJ2eXlzNHy9Op2ORWH6hsP+ek0/3lM71u3GrjPeUPt9nS3OC3X22r4XJwe6zvT3PdJ/toPwj9x4PCp0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCUInCJ0gdILQCfKXOfkfgv+6kLmyl2EAAAAASUVORK5CYII= " type="image/gif" sizes="16x16">
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface:400,400i|Roboto+Mono&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/leftright.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg  bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html">Sruthi<span> <img src="images/sb_2_50x50.png" alt="" data-size="20x20"> </span>Balan</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+   
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="services.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">VisionBoard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="books.html">Books i admire</a>
+            </li>
+          </ul>
+
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
+
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/hero_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span>Books I admire</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/harry1.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <h1 class="mb-4 section-title">Harry potter</h1>
+          <p>The central character in the series is Harry Potter, a boy who lives in the fictional town of Little Whinging, Surrey with his aunt, uncle, and cousin – the Dursleys – and discovers at the age of eleven that he is a wizard, though he lives in the ordinary world of non-magical people known as Muggles.[8] The wizarding world exists parallel to the Muggle world, albeit hidden and in secrecy. His magical ability is inborn, and children with such abilities are invited to attend exclusive magic schools that teach the necessary skills to succeed in the wizarding world.</p>        </p>
+          <p>Harry becomes a student at Hogwarts School of Witchcraft and Wizardry, a wizarding academy in Scotland, and it is here where most of the events in the series take place. As Harry develops through his adolescence, he learns to overcome the problems that face him: magical, social, and emotional, including ordinary teenage challenges such as friendships, infatuation, romantic relationships, schoolwork and exams, anxiety, depression, stress, and the greater test of preparing himself for the confrontation that lies ahead in wizarding Britain's increasingly-violent second wizarding war. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire </p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/harry2.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h2 class="mb-4 section-title">Harry potter</h2> -->
+<p>Each novel chronicles one year in Harry's life[11] during the period from 1991 to 1998.[12] The books also contain many flashbacks, which are frequently experienced by Harry viewing the memories of other characters in a device called a Pensieve.The environment Rowling created is intimately connected to reality. The British magical community of the Harry Potter books is inspired by 1990s British culture, European folklore, classical mythology and alchemy, incorporating objects and wildlife such as magic wands, magic plants, potions, spells, flying broomsticks, centaurs and other magical creatures, and the Philosopher's Stone, beside others invented by Rowling.</p>          
+<p> While the fantasy land of Narnia is an alternate universe and the Lord of the Rings' Middle-earth a mythic past, the wizarding world of Harry Potter exists parallel to the real world and contains magical versions of the ordinary elements of everyday life, with the action mostly set in Scotland (Hogwarts), the West Country, Devon, London, and Surrey in southeast England.[13] The world only accessible to wizards and magical beings comprises a fragmented collection of overlooked hidden streets, ancient pubs, lonely country manors, and secluded castles invisible to the Muggle population.   </p>    </div>
+      </div>
+    </div>
+  </div>
+  
+ 
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/harry3.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h2 class="mb-4 section-title">Harry potter</h2> -->
+         
+          <p>The Harry Potter novels are mainly directed at a young adult audience as opposed to an audience of middle grade readers, children, or adults. The novels fall within the genre of fantasy literature, and qualify as a type of fantasy called "urban fantasy", "contemporary fantasy", or "low fantasy". They are mainly dramas, and maintain a fairly serious and dark tone throughout, though they do contain some notable instances of tragicomedy and black humour. In many respects, they are also examples of the bildungsroman, or coming of age novel,[37] and contain elements of mystery, adventure, horror, thriller, and romance.</p>
+  <p> The books are also, in the words of Stephen King, "shrewd mystery tales",[38] and each book is constructed in the manner of a Sherlock Holmes-style mystery adventure. The stories are told from a third person limited point of view with very few exceptions (such as the opening chapters of Philosopher's Stone, Goblet of Fire and Deathly Hallows and the first two chapters of Half-Blood Prince).The series can be considered part of the British children's boarding school genre, which includes Rudyard Kipling's Stalky & Co., Enid Blyton's Malory Towers, St. Clare's and the Naughtiest Girl series, and Frank Richards's Billy Bunter novels: the Harry Potter books are predominantly set in Hogwarts, a fictional British boarding school for wizards, where the curriculum includes the use of magic.[</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/harry4_456x700_2_884x1214.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h2 class="mb-4 section-title">Harry potter</h2> -->
+         <p> In this sense they are "in a direct line of descent from Thomas Hughes's Tom Brown's School Days and other Victorian and Edwardian novels of British public school life", though they are, as many note, more contemporary, grittier, darker, and more mature than the typical boarding school novel, addressing serious themes of death, love, loss, prejudice, coming-of-age, and the loss of innocence in a 1990s British setting.The Harry Potter stories feature medieval imagery and motifs drawn from the King Arthur stories. Hogwarts resembles a medieval university-cum-castle with several professors who belonging to an Order of Merlin; Old Professor Binns still lectures about the International Warlock Convention of 1289; and a real historical person, a 14th-century scribe, Sir Nicolas Flamel, is described as a holder of the Philosopher's Stone.</p>
+<p> Other medieval elements in Hogwarts include coats-of-arms and medieval weapons on the walls, letters written on parchment and sealed with wax, the Great Hall of Hogwarts which is similar to the Great Hall of Camelot, the use of Latin phrases, the tents put up for Quidditch tournaments are similar to the "marvellous tents" put up for knightly tournaments, imaginary animals like dragons and unicorns which exist around Hogwarts, and the banners with heraldic animals for the four Houses of Hogwarts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/harry5_456x700.jpeg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h2 class="mb-4 section-title">Harry potter</h2> -->
+          <p>Many of the motifs of the Potter stories such as the hero's quest invoking objects that confer invisibility, magical animals and trees, a forest full of danger and the recognition of a character based upon scars are drawn from medieval French Arthurian romances.[42] Other aspects borrowed from French Arthurian romances include the use of owls as messengers, werewolves as characters, and white deer.[42] The American scholars Heather Arden and Kathrn Lorenz in particular argue that many aspects of the Potter stories are inspired by a 14th-century French Arthurian romance, Claris et Laris, writing of the "startling" similarities between the adventures of Potter and the knight Claris.[42] Arden and Lorenz noted that Rowling graduated from the University of Exeter in 1986 with a degree in French literature and spent a year living in France afterwards.</p>
+<p>Arnden and Lorenz wrote about the similarity between the Arthurian romances, where Camelot is a place of wonder and safety, and from where the heroic knights must venture forth facing various perils, usually in an enchanted forest; and Hogwarts, likewise a wondrous safe place, where Harry Potter and friends must periodically venture forth from to the magical forest that surrounds Hogwarts.[</p>       
+ </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/jkrowling_1_884x1214.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <h2 class="mb-4 section-title">J.K Rowling</h2>
+          <p>In 1990, Rowling was on a crowded train from Manchester to London when the idea for Harry suddenly "fell into her head". Rowling gives an account of the experience on her website saying:"I had been writing almost continuously since the age of six but I had never been so excited about an idea before. I simply sat and thought, for four (delayed train) hours, and all the details bubbled up in my brain, and this scrawny, black-haired, bespectacled boy who did not know he was a wizard became more and more real to me."Rowling was working as a researcher and bilingual secretary for Amnesty International when she conceived the idea for the Harry Potter series while on a delayed train from Manchester to London in 1990.[7] The seven-year period that followed saw the death of her mother, birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997.</p>
+<p>After eight other publishers had rejected Philosopher's Stone, Bloomsbury offered Rowling a £2,500 advance for its publication.[57][58] Despite Rowling's statement that she did not have any particular age group in mind when beginning to write the Harry Potter books, the publishers initially targeted children aged nine to eleven.[59] On the eve of publishing, Rowling was asked by her publishers to adopt a more gender-neutral pen name in order to appeal to the male members of this age group, fearing that they would not be interested in reading a novel they knew to be written by a woman. She elected to use J. K. Rowling (Joanne Kathleen Rowling), using her grandmother's name as her second name because she has no middle name.</p> 
+</div>
+      </div>
+    </div>
+  </div>
+  <hr style="width: 1000px;">
+  <br><br><br>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/tellmeyourdreams_884x1214.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <h1 class="mb-4 section-title">Tell Me Your Dreams</h1>
+          <p>The main characters of the book are Ashley Patterson, an introverted workaholic, her co-workers, Toni Prescott, an outgoing singer and dancer, and shy artist Alette Peters and Ashley's father, Dr. Steven Patterson.The three women do not get along very well, because of their dissimilar natures. Toni and Alette generally maintain a friendship, with Alette a calming influence, but Toni dislikes Ashley and criticizes her harshly. All three have issues with their mothers having told them they'd never amount to anything.Ashley fears that somebody is following her. She finds her house lights turned on when she returns from work, her personal effects in disarray, and someone has written "You will die" on her mirror with a lipstick. She thinks someone's broken into her house. She requests a police escort, but the next morning, the police officer assigned to this duty is found dead in her apartment.Two other murders have already taken place, with an identical pattern. All the murdered men had been castrated and were having sex before being murdered. Evidence points to the same woman being involved in all three cases. When a gift from one of the murdered men to Toni is found among Ashley's things, she is identified as the killer and arrested. At this point, it is revealed that the three women are three selves of a woman suffering from multiple personality disorder.</p> 
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/tellme2_884x1214.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h1 class="mb-4 section-title">Tell Me Your Dreams</h1> -->
+         <p>Ashley's father persuades an attorney friend, David Singer to represent Ashley. The second half of the novel deals with the trial, complete with endless squabbling between opposing psychiatrists as to whether or not MPD is real. Finally when David introduces Toni, the violent alter of Ashley, the court is convinced that Ashley is innocent. Ashley is committed to an insane asylum and in the course of therapy is introduced to her two "alters" and relives the horrific events that shattered her mind. She was sexually abused during her childhood, and this made her develop a strong hatred towards men.</p>
+<p>In the asylum, Ashley is treated for MPD by Dr. Gilbert and Dr. Otto Lewis. Gilbert falls for her and during her crisis, he too feels her pain and wants to comfort her. It is revealed that her father, Dr. Steven was the one who sexually abused her, causing her to develop Dissociative Identity Disorder resulting in the creation of the alter Toni, and becomes a thing of her mother's detest. When they are living in Italy during her teenage years, she is once again assaulted by her father, leading to the creation of Alette. The structuring of both the alters is very interesting. The first alter represents her struggle and fear as a helpless child without sexual maturity, and (Toni) develops into a protective one and becomes murderous when encountered with similar conditions. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/tellme3_1_884x1214.jpg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <!-- <h1 class="mb-4 section-title">Tell Me Your Dreams</h1> -->
+          <p>While the second alter (Alette) represents her feeling of shame and pain of being breached, thus developing into a source of console exhibiting warmth and motherly love who has good rapport with Ashley.However, Toni is enraged when she learns that the woman her father is about to marry has a three-year-old daughter and is afraid that the girl would suffer the same fate she had. Doctor Gilbert drains anger out of Toni by showing the news everyday, making Toni softer with each passing day.This softer side of Toni is only a front to show Doctor Gilbert she has finally accepted everything so she and Alette can get out of the asylum to kill her father, who is staying in The Hamptons for Christmas. Soon, Doctor Gilbert releases her from the asylum as he believes she is cured.</p>
+<p>We go along with the doctor. We make him believe that we're really trying to help him. We string him along. We're in no hurry. And I promise you that one day I'll get us out of here In the end, Ashley is shown to be traveling on a train to The Hamptons, where her father is staying, when Toni suddenly shows up to kill him. Toni in the last part of the novel:There could have been a terrible ending for her, but this was the happy ending she had prayed for. I'm on my way at last. And as the train headed toward The Hamptons, she began to sing softly.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/work_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <!-- <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Books I admire </h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Books I admire</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
+          <figure class="img-dotted-bg">
+            <img src="images/sidney_884x1214.jpeg" alt="Image" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
+          <h2 class="mb-4 section-title">Sidney Sheldon</h2>
+          <p>"I try to write my books so the reader can't put them down," he explained in a 1982 interview. "I try to construct them so when the reader gets to the end of it, he or she has to read just one more chapter. It's the technique of the old Saturday afternoon serial: leave the guy hanging on the edge of the cliff at the end of the chapter." Most of his readers were women. Asked why this was the case he said: "I like to write about women who are talented and capable, but most important, retain their femininity. Women have tremendous power — their femininity, because men can't do without it."Books were Sheldon's favorite medium. "I love writing books," he commented. "Movies are a collaborative medium, and everyone is second-guessing you. When you do a novel you're on your own. It's a freedom that doesn't exist in any other medium." He was the author of 18 novels which have sold over 300 million copies.</p>
+          <p>Sheldon was prominent in the 1930s, first working on Broadway plays and then in motion pictures, notably writing the successful comedy The Bachelor and the Bobby-Soxer (1947) which earned him an Oscar in 1948. He went on to work in television, where his works spanned a 20-year period during which he created The Patty Duke Show (1963–66), I Dream of Jeannie (1965–70) and Hart to Hart (1979–84).[2] After turning 50, he began writing best-selling romantic suspense novels, such as Master of the Game (1982), The Other Side of Midnight (1973) and Rage of Angels (1980). His 18 novels have sold over 300 million copies in 51 languages. Sheldon is consistently cited as one of the top ten best selling fiction writers of all time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="width: 1000px;">
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3 class="mb-4">About Me</h3>
+          <p class="mb-5">Btech graduate,Passionate,Web and Mobile App developer </p>
+          
+
+        </div>
+        <div class="col-md-3 ml-auto">
+
+          <h3 class="mb-4">Navigation</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Skills</a></li>
+            <li><a href="portfolio.html">VisionBoard</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="books.html">Books I admire</a></li>
+          </ul>
+
+
+          
+        </div>
+        <div class="col-md-3 mb-5">
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="https://github.com/Sruthibalan" class="p-2"><span class="fa fa-github"></span></a></li>
+            <li><a href="https://wa.link/k6exwu" class="p-2"><span class="fa fa-whatsapp"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/sruthi-balan-37b95914b" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="https://www.instagram.com/sruthi_balan/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <div class="footer-copyright text-center py-3 ">© 2020 Copyright:
+              <a > SruthiBalan</a>
+            </div>            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+ 
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#ffc107" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
